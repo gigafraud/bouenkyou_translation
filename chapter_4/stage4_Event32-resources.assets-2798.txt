@@ -1,0 +1,26 @@
+;START
+;;ーーーーー
+;;ルーミア撃破
+;;ーーーーー
+
+*RSK ID3 潜伏
+*RSK ID31 潜伏
+*RSK ID32 潜伏
+*RSK ID7 潜伏
+*RSK ID8 潜伏
+*RSK ID9 潜伏
+
+*IF0 EVENT4_33
+
+*SKP END_EVE
+
+;ENDIF0
+
+*light 0.8 1 1 1
+
+;END_EVE
+*SLP 15
+
+*CAL 全
+
+*END

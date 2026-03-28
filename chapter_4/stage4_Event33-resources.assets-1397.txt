@@ -1,0 +1,29 @@
+;START
+;;ーーーーー
+;;ミスティア撃破
+;;ーーーーー
+
+*RSK リグル 潜伏
+*RSK ID15 潜伏
+*RSK ID16 潜伏
+*RSK ID17 潜伏
+*RSK ID18 潜伏
+*RSK ID19 潜伏
+*RSK ID20 潜伏
+*RSK ID21 潜伏
+*RSK ID22 潜伏
+
+*IF0 EVENT4_32
+
+*SKP END_EVE
+
+;ENDIF0
+
+*light 0.8 1 1 1
+
+;END_EVE
+*SLP 15
+
+*CAL 全
+
+*END
