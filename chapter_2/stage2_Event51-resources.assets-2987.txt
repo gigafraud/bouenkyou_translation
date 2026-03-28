@@ -1,0 +1,23 @@
+;START
+;;ーーーーーーー
+;;味方ＶＳフラン
+;;ーーーーーーー
+*SND BGM16
+
+*CPU IDEB1 MOV_ALL 1
+
+*IF3 EVENT2_2
+*CPU IDEB2 MOV_ALL 1
+*CPU IDEB3 MOV_ALL 1
+*CPU IDEB4 MOV_ALL 1
+;ENDIF3
+
+*RHT フランドール 笑
+ふふっ、あなたも私と遊んでくれるの？[n]あははっ、嬉しいな。やっぱり出てきてよかった！
+
+*NHT
+*NWK
+*SLP 15
+*RSN
+
+*END

@@ -1,0 +1,36 @@
+;START
+;;ーーーーーーー
+;;妹紅ＶＳフラン
+;;ーーーーーーー
+*SND BGM16
+
+*CPU IDEB1 MOV_ALL 1
+
+*IF3 EVENT2_2
+*CPU IDEB2 MOV_ALL 1
+*CPU IDEB3 MOV_ALL 1
+*CPU IDEB4 MOV_ALL 1
+;ENDIF3
+
+*LHT 妹紅 怒
+命がいくつあっても足りない、か……[n]ふっ……　さて、いったいいくつあったら[r]足りるんだろうな。
+
+*RHT フランドール
+あなたも遊んでくれるの？
+
+*LHT 妹紅 怒
+ああ。ある程度なら付き合ってやれそうだからな。
+
+*RHT フランドール 笑
+あははははっ！　なら、思いっきりいくよーっ！
+
+
+
+
+
+*NHT
+*NWK
+*SLP 15
+*RSN
+
+*END

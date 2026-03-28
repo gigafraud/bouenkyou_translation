@@ -1,0 +1,31 @@
+;START
+;;ーーーーーーーー
+;;メリーＶＳフラン
+;;ーーーーーーーー
+*SND BGM16
+
+*CPU IDEB1 MOV_ALL 1
+
+*IF3 EVENT2_2
+*CPU IDEB2 MOV_ALL 1
+*CPU IDEB3 MOV_ALL 1
+*CPU IDEB4 MOV_ALL 1
+;ENDIF3
+
+*LHT メリー 驚
+な、なに……？[r]この子、他の妖怪なんかよりずっと……
+
+*RHT フランドール 笑
+あはははははっ！[r]みんなみんな壊しちゃえーっ！
+
+*KON ミス
+
+*LHT メリー 苦
+きゃっ！？[n]……夢の中で命を落としたら、[r]いったいどうなっちゃうのかしらね……
+
+*NHT
+*NWK
+*SLP 15
+*RSN
+
+*END

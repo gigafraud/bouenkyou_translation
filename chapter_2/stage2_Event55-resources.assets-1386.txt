@@ -1,0 +1,27 @@
+;START
+;;ーーーーーーー
+;;天子ＶＳフラン
+;;ーーーーーーー
+*SND BGM16
+
+*CPU IDEB1 MOV_ALL 1
+
+*IF3 EVENT2_2
+*CPU IDEB2 MOV_ALL 1
+*CPU IDEB3 MOV_ALL 1
+*CPU IDEB4 MOV_ALL 1
+;ENDIF3
+
+*LHT 天子
+フフン。派手なだけな攻撃なんて、私が跳ね返して[r]あげるわ。
+
+*RHT フランドール 笑
+ふふっ、なんだかあなた、面白そうね。[r]それじゃ、いくよーっ！
+
+
+*NHT
+*NWK
+*SLP 15
+*RSN
+
+*END

@@ -1,0 +1,68 @@
+;START
+;;ーーーーーーーーーーーーーーー
+;;２５ターン経過、フラン移動開始
+;;ーーーーーーーーーーーーーーー
+
+*IF3 EVENT2_51
+*SKP Label1
+;ENDIF3
+
+*SND 敵2
+
+*CP2 IDEB1 MOV_ALL 1
+*CP2 IDEB2 MOV_ALL 1
+*CP2 IDEB3 MOV_ALL 1
+*CP2 IDEB4 MOV_ALL 1
+
+*MVG IDEB1
+*SLP 15
+
+*LHT フランドール 不満
+なんだかコソコソ隠れてるのがいるみたいだけど……[r]出てこないなー
+*LHT フランドール
+だったら……
+*LHT フランドール 笑
+こっちから遊びに行けば、いいよね！！
+
+*NHT
+*NWK
+
+*IF0 蓮子
+*MVG 蓮子
+*SKP Label0
+;ENDIF0
+*MVG メリー
+;Label0
+
+*SLP 15
+
+*RHT 妹紅 苦
+くっ、吸血鬼がこっちに気がついたぞ！
+
+*IF1 蓮子
+*LHT 魔理沙 驚
+ま、まずい、蓮子！　急いで駆け抜けるぞ！！
+
+*RHT 蓮子 驚
+わ、わかったわ！
+*RHT 蓮子 怒
+（こんなところで、やられるわけになんて……！）
+
+*SKP Label1
+;ENDIF1
+*LHT 魔理沙 驚
+ま、まずい、メリー！急いで駆け抜けるぞ！！
+
+*RHT メリー 驚
+そ、そんな急に言われても！
+*RHT メリー 哀
+（まさか夢の中で全力疾走させられるなんて……ううっ）
+
+;Label1
+
+*NHT
+*NWK
+*RSN
+*RED data_others/状態異常耐性
+
+*END

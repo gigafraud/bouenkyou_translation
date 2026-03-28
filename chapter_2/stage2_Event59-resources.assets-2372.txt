@@ -1,0 +1,31 @@
+;START
+;;ーーーーーーー
+;;華扇ＶＳフラン
+;;ーーーーーーー
+*SND BGM16
+
+*CPU IDEB1 MOV_ALL 1
+
+*IF3 EVENT2_2
+*CPU IDEB2 MOV_ALL 1
+*CPU IDEB3 MOV_ALL 1
+*CPU IDEB4 MOV_ALL 1
+;ENDIF3
+
+
+*LHT 華扇 驚
+吸血鬼……　どうしてこんなところに……
+
+*RHT フランドール 笑
+あはははっ！　あー、楽し！[n]ちょっと触るとみんな壊れてくの！[r]あはっ、あはははははっ！！
+
+*LHT 華扇 怒
+まともにやりあって敵う相手ではないわ……[r]なんとかして凌がなくては……！
+
+
+*NHT
+*NWK
+*SLP 15
+*RSN
+
+*END

@@ -1,0 +1,34 @@
+;START
+;;ーーーーーーー
+;;布都ＶＳフラン
+;;ーーーーーーー
+*SND BGM16
+
+*CPU IDEB1 MOV_ALL 1
+
+*IF3 EVENT2_2
+*CPU IDEB2 MOV_ALL 1
+*CPU IDEB3 MOV_ALL 1
+*CPU IDEB4 MOV_ALL 1
+;ENDIF3
+
+*LHT 布都
+派手にやっておるのぉ。
+*LHT 布都 得意
+じゃが、無暗に壊せば良いというものでは[r]ないぞ。もっと効率的にだな……
+
+*RHT フランドール 笑
+みんな壊しちゃえば一緒だよ！[r]そぉーれっ！
+
+*KON 大砲
+
+*LHT 布都 驚
+ぬわわっ！？[r]ま、待て！　いきなりなんて卑怯ではないか！！
+
+
+*NHT
+*NWK
+*SLP 15
+*RSN
+
+*END
